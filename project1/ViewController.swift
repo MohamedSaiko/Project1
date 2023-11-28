@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
     
     var fileManager = Manager()
 
@@ -15,7 +15,4 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         fileManager.manage()
     }
-
-
 }
-
