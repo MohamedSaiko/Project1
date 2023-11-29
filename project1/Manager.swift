@@ -8,7 +8,6 @@
 import Foundation
 
 struct Manager {
-    
     var pictures = [String]()
     
     mutating func manage() {
@@ -26,6 +25,5 @@ struct Manager {
                 pictures.append(item)
             }
         }
-        print(pictures)
     }
 }

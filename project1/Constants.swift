@@ -8,3 +8,4 @@
 import Foundation
 
 let pictureIdentifier = "Picture"
+let detailViewControllerIdentifier = "DetaiViewController"

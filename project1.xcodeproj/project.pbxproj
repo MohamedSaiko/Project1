@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4120A15F2B15FD71005F3350 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A15E2B15FD71005F3350 /* Manager.swift */; };
 		4120A1612B160AFB005F3350 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A1602B160AFB005F3350 /* Constants.swift */; };
+		4120A1632B16192A005F3350 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A1622B16192A005F3350 /* DetailViewController.swift */; };
 		418EF27E2B15F1BA000F5FE7 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 418EF2742B15F1BA000F5FE7 /* nssl0049.jpg */; };
 		418EF27F2B15F1BA000F5FE7 /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 418EF2752B15F1BA000F5FE7 /* nssl0046.jpg */; };
 		418EF2802B15F1BA000F5FE7 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 418EF2762B15F1BA000F5FE7 /* nssl0091.jpg */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		4120A15E2B15FD71005F3350 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		4120A1602B160AFB005F3350 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4120A1622B16192A005F3350 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		418EF2742B15F1BA000F5FE7 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
 		418EF2752B15F1BA000F5FE7 /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
 		418EF2762B15F1BA000F5FE7 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
@@ -61,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4120A1642B16193A005F3350 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41DC43672B15EC5400DBAC04 /* ViewController.swift */,
+				4120A1622B16192A005F3350 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		418EF2732B15F1BA000F5FE7 /* Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +111,8 @@
 				41DC43632B15EC5400DBAC04 /* AppDelegate.swift */,
 				41DC43652B15EC5400DBAC04 /* SceneDelegate.swift */,
 				4120A1602B160AFB005F3350 /* Constants.swift */,
-				41DC43672B15EC5400DBAC04 /* ViewController.swift */,
 				4120A15E2B15FD71005F3350 /* Manager.swift */,
+				4120A1642B16193A005F3350 /* Controllers */,
 				41DC43692B15EC5400DBAC04 /* Main.storyboard */,
 				41DC436C2B15EC5600DBAC04 /* Assets.xcassets */,
 				41DC436E2B15EC5600DBAC04 /* LaunchScreen.storyboard */,
@@ -195,6 +206,7 @@
 				4120A1612B160AFB005F3350 /* Constants.swift in Sources */,
 				41DC43682B15EC5400DBAC04 /* ViewController.swift in Sources */,
 				41DC43642B15EC5400DBAC04 /* AppDelegate.swift in Sources */,
+				4120A1632B16192A005F3350 /* DetailViewController.swift in Sources */,
 				41DC43662B15EC5400DBAC04 /* SceneDelegate.swift in Sources */,
 				4120A15F2B15FD71005F3350 /* Manager.swift in Sources */,
 			);
