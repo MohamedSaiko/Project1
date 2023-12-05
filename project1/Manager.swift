@@ -16,10 +16,12 @@ struct Manager {
         guard let path = wrappedpath else {
             return
         }
+        
         let wrappeditems = try? fm.contentsOfDirectory(atPath: path)
         guard let items = wrappeditems else {
             return
         }
+        
         for item in items {
             if item.hasPrefix("nssl") {
                 pictures.append(item)
