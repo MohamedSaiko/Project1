@@ -12,13 +12,16 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         title = "Photos"
         navigationController?.navigationBar.prefersLargeTitles = true
         fileManager.manage()
     }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         fileManager.pictures.count
     }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let pictureCell = tableView.dequeueReusableCell(withIdentifier: pictureIdentifier, for: indexPath)
         var content = pictureCell.defaultContentConfiguration()
@@ -26,6 +29,7 @@ class ViewController: UITableViewController {
         pictureCell.contentConfiguration = content
         return pictureCell
     }
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let detailViewController = storyboard?.instantiateViewController(withIdentifier: detailViewControllerIdentifier) as? DetailViewController {
             detailViewController.selectedImage = fileManager.pictures.sorted()[indexPath.row]
